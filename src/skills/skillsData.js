@@ -6,11 +6,11 @@ const skills = {
     },
     {
       title: "CSS",
-      level: 5,
+      level: 6,
     },
     {
       title: "SASS",
-      level: 2,
+      level: 5,
     },
     {
       title: "JavaScript",
@@ -21,46 +21,42 @@ const skills = {
       level: 4,
     },
     {
-      title: "Tailwind CSS",
-      level: 1,
+      title: "Vue.js",
+      level: 4,
     },
     {
       title: "React JS",
       level: 3,
     },
-    {
-      title: "Figma",
-      level: 4,
-    },
   ],
   2: [
     {
-      title: "PostgreSQL",
+      title: "Figma",
+      level: 6,
+    },
+    {
+      title: "Wireframing",
+      level: 6,
+    },
+    {
+      title: "Adobe XD",
       level: 5,
     },
     {
-      title: "Node.js",
+      title: "Prototyping",
+      level: 5,
+    },
+    {
+      title: "Usability",
       level: 4,
     },
     {
-      title: "MongoDB",
-      level: 2,
+      title: "Marketing",
+      level: 3,
     },
     {
-      title: "Git",
+      title: "UX Research",
       level: 4,
-    },
-    {
-      title: "PHP",
-      level: 1,
-    },
-    {
-      title: "SQL",
-      level: 3,
-    },
-    {
-      title: "Express.js",
-      level: 3,
     },
   ],
 };

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Chavez Portfolio</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+
+</head>
+<body>
+    <div class="siteContainer">
+        <header id="mainHeader">
+            <div id="logo">
+                <a class="links" href="index.html"><img src="images/Logo.svg" alt="Logo"></a>
+                <h2>Gabriel Chavez</h2>
+            </div><!--end logo-->
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><span></span></label>
+            <label for="active" class="close"></label>
+            <div class="wrapper">
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="public/contact.php">CONTACT</a></li>
+                </ul>
+            </div>
+        </header><!--end mainHeader-->
+        
+        <main id="app">
+            <section>
+                <div id="header-background-7">
+                    <div class="header-portfolio">
+                        <h2>Crossfit</h2>
+                    </div>
+                </div>
+                <div class="pj-desc-container">
+                    <div class="pj-title">
+                        <h2>PROJECT DESCRIPTION:</h2>
+                        <p>I created a suite of animated illustrations (HUD animations) to
+                            demonstrate the benefits of diagnosing and visualizing athletic movement, forces and
+                            methods of professional sports.</p>
+                    </div>
+                    <div class="pj-title-desc">
+                        <h2>PROJECT TYPE:</h2>
+                        <p>Video Edition</p>
+                        <h2>PROJECT ROLE:</h2>
+                        <p>Video Producer</p>
+                    </div>
+                </div>
+                <div class="ux-ui-design-container">
+                    <div class="ux-ui-design">
+                        <h2>STYLE-FRAMES:</h2>
+                        <p>The Style-Frames were created to depict the motion and overall look and feel of the video
+                            to be created.</p>
+                        <br>
+                        <div class="grid-1">
+                            <div class="border-t-l">
+                                <img src="images/cross_Page_1.png" alt="Gold Bond Mockup">
+                            </div>
+                            <div id="height-c" class="border-t-r">
+                                <img src="images/cross_Page_3.png" alt="Gold Bond Mockup">
+                            </div>
+                            <div class="border-b-l" >
+                                <img src="images/cross_Page_4.png" alt="Gold Bond Mockup">
+                            </div>
+                            <div class="border-b-r" >
+                                <img src="images/cross_Page_5.png" alt="Gold Bond Mockup">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-img">
+                    <img src="images/Line.png" alt="Line">
+                </div>
+                <div class="ux-ui-design-container">
+                    <div class="ux-ui-design">
+                        <h2>STYLE GUIDE:</h2>
+                        <p>The style guide was developed to set standards for the writing, formatting, and design of documents. </p>
+                        <p>All the requirements and standards for our brand are described and explained in our style guide.</p>
+                        <br>
+                        <iframe id="cross-pdf" src="images/Sport_Viz_Style_Guide.pdf"></iframe>
+                    </div>
+                </div>
+                <div class="line-img">
+                    <img src="images/Line.png" alt="Line">
+                </div>
+                <div class="ux-ui-design-container">
+                    <div class="ux-ui-design">
+                        <h2>VIDEO:</h2>
+                        <p>The video campaign was developed to demonstrate the benefits of diagnosing and visualizing athletic movement, forces and methods of professional sports.</p>
+                        <br>
+                        <div class="border-all" >
+                            <video src="videos/Sport_Viz_Video.mp4" controls></video>
+                        </div>
+                </div>
+        </main>
+        <h2 id="MP-Text">More Projects...</h2>
+        <section class="M-projects">
+            <div class="MProjectImg">
+                <a href="project1.html"><img class="MPImg" src="images/Glassware.svg" alt="Project photo"></a>
+            </div>
+            <div id="MPUps" class="MProjectImg">
+                <a href="project3.html"><img class="MPImg" src="images/UPS.png" alt="Project photo"></a>
+            </div>
+            <div id="MPClaro" class="MProjectImg">
+                <a href="project4.html"><img class="MPImg" src="images/claro.png" alt="Project photo"></a>
+            </div> 
+        </section> 
+
+        <footer id="mainFooter">
+            <h2 class="hidden">Footer</h2>
+            <div id="footerNav">
+                <h3 class="hidden">Map Site</h3>
+                <p><a href="index.html">Work</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></p>
+            </div><!--end FooterNav-->
+            <div id="copyRight"><p> &copy; Gabriel Chavez Portfolio 2021 </p></div><!--end Copyright-->
+        </footer><!--end mainFooter-->
+    </div><!--end siteContainer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="js/main.js" type="module" defer></script>
+</body>
+</html>

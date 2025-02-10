@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import DOMPurify from "dompurify";
 
+
+
 export default function ContactMenu() {
   const initialState = {
     name: "",
@@ -87,6 +89,7 @@ export default function ContactMenu() {
 
   return (
     <div className="contact-menu">
+      <h2 className="contactH2"> MESSAGE ME: </h2>
       {!isSent && (
         <form onSubmit={handleSubmit}>
           <div className="form-group">

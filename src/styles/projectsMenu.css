@@ -36,13 +36,22 @@
 }
 
 .project-item.activeProject:nth-child(1) {
-  background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+  background: linear-gradient(270deg, #ffffff00, #c0ad02f0 70%);
 }
 .project-item.activeProject:nth-child(2) {
-  background: linear-gradient(270deg, #ffffff00, var(--blue) 70%);
+  background: linear-gradient(270deg, #ffffff00, #c62727f0 70%);
 }
 .project-item.activeProject:nth-child(3) {
+  background: linear-gradient(270deg, #ffffff00, #d5a161f0 70%);
+}
+.project-item.activeProject:nth-child(4) {
   background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
+}
+.project-item.activeProject:nth-child(5) {
+  background: linear-gradient(270deg, #ffffff00, #fb4f4ff0 70%);
+}
+.project-item.activeProject:nth-child(6) {
+  background: linear-gradient(270deg, #ffffff00, #669f59f0 70%);
 }
 
 .project-sub-container {
